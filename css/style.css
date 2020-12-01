@@ -1,0 +1,141 @@
+ 
+ .font-su{
+ 	font-family: 'Sura', serif;
+ }
+ .font-so{
+ 	    font-family: 'Source Serif Pro', serif;
+ }
+
+html{
+	scroll-behavior: smooth;
+}
+
+ 
+ body{
+	padding: 0;
+	margin: 0;
+	background:#888580;
+}
+.form-container{
+	padding:30px;
+	background:#fff;
+	box-shadow:0px 0px 10px 0px #000;
+	border-radius:10px;
+	position:absolute;
+	top:15vh;
+	
+}
+
+#top-navbar .fa-times,
+#top-navbar .fa-bars{
+ 	cursor: pointer;
+ 	display: none;
+ }
+
+ #sidebar-slider .menu .nav-link:hover{
+	color: #6b6468;
+}
+
+
+#action img:hover{
+	transform: scale(1.2);
+	transition:transform 1s ease;
+}
+#action img:hover{
+	transform: scale(1.2);
+	transition:transform 1s ease;
+}
+#horror img:hover{
+	transform: scale(1.2);
+	transition:transform 1s ease;
+}
+#comedy img:hover{
+	transform: scale(1.2);
+	transition:transform 1s ease;
+}
+#romance img:hover{
+	transform: scale(1.2);
+	transition:transform 1s ease;
+}
+#cartoon img:hover{
+	transform: scale(1.2);
+	transition:transform 1s ease;
+}
+#drama img:hover{
+	transform: scale(1.2);
+	transition:transform 1s ease;
+}
+#anime img:hover{
+	transform: scale(1.2);
+	transition:transform 1s ease;
+}
+#tv img:hover{
+	transform: scale(1.2);
+	transition:transform 1s ease;
+}
+
+#action h5,
+#horror h5,
+#comedy h5,
+#romance h5,
+#cartoon h5,
+#drama h5,
+#anime h5,
+#tv h5{
+	width:200px;
+	height: 50px;
+	line-height: 40px;
+	text-align: center;
+}
+
+#action h5::after,
+#horror h5::after,
+#comedy h5::after,
+#romance h5::after,
+#cartoon h5::after,
+#drama h5::after,
+#anime h5::after,
+#tv h5::after
+{
+	content: "";
+	border-top: 50px solid #292b2c ;
+	border-right: 50px solid transparent;
+	position: absolute;
+	margin-left: 61px;
+}
+#horror h5::after{
+	margin-left: 57px;
+}
+
+#comedy h5::after{
+	margin-left: 50px;
+}
+#romance h5::after{
+	margin-left: 8px;
+}
+#cartoon h5::after{
+	margin-left: 50px;
+}
+#drama h5::after{
+	margin-left: 28px;
+}
+#anime h5::after{
+	margin-left: 66px;
+}
+#tv h5::after{
+	margin-left: 28px;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+	#top-navbar .fa-bars{
+		display: block;
+	}
+	#sidebar-slider .col-md-3{
+		display: none;
+	}
+}
+
+
